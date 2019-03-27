@@ -24,3 +24,12 @@ p span.i1{
 	text-indent: -1em;
 	padding-left: 2em;
 }
+
+[epub|type~="z3998:letter"] .signature{
+	text-align: right;
+}
+
+[epub|type~="z3998:letter"]{
+	margin-left: 0;
+	margin-right: 0;
+}
